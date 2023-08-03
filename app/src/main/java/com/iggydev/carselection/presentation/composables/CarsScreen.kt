@@ -130,7 +130,7 @@ fun CarsScreen(navigationController: NavHostController) {
                         },
                         modifier = Modifier
                             .fillMaxWidth(0.9f)
-                            .height(46.dp),
+                            .height(36.dp),
                         shape = RoundedCornerShape(15.dp),
                         border = BorderStroke(width = 2.dp, color = Color.Black),
 
@@ -150,7 +150,7 @@ fun CarsScreen(navigationController: NavHostController) {
                                     navigationController.navigate(route = Screens.AddScreen.route + "/${carsViewModel.state.value.cars!!.size}")
                                 },
                                 modifier = Modifier
-                                    .height(46.dp),
+                                    .height(36.dp),
                                 shape = RoundedCornerShape(15.dp),
                                 border = BorderStroke(width = 2.dp, color = Color.Black),
 
@@ -166,7 +166,7 @@ fun CarsScreen(navigationController: NavHostController) {
                                 }
                             },
                             modifier = Modifier
-                                .height(46.dp),
+                                .height(36.dp),
                             shape = RoundedCornerShape(15.dp),
                             border = BorderStroke(width = 2.dp, color = Color.Black),
 
@@ -180,7 +180,7 @@ fun CarsScreen(navigationController: NavHostController) {
                                 }
                             },
                             modifier = Modifier
-                                .height(46.dp),
+                                .height(36.dp),
                             shape = RoundedCornerShape(15.dp),
                             border = BorderStroke(width = 2.dp, color = Color.Black),
 
@@ -195,7 +195,7 @@ fun CarsScreen(navigationController: NavHostController) {
                                 }
                             },
                             modifier = Modifier
-                                .height(46.dp),
+                                .height(36.dp),
                             shape = RoundedCornerShape(15.dp),
                             border = BorderStroke(width = 2.dp, color = Color.Black),
 
@@ -249,7 +249,7 @@ fun CarsScreen(navigationController: NavHostController) {
                                     verticalArrangement = Arrangement.Center,
                                     horizontalAlignment = Alignment.CenterHorizontally
                                 ) {
-                                    Text(text = car ?: "")
+                                    Text(text = car ?: "", color = Color.Black)
 
                                 }
                             }
@@ -281,7 +281,7 @@ fun CarsScreen(navigationController: NavHostController) {
                                     verticalArrangement = Arrangement.Center,
                                     horizontalAlignment = Alignment.CenterHorizontally
                                 ) {
-                                    Text(text = car ?: "")
+                                    Text(text = car ?: "", color = Color.Black)
 
                                 }
                             }
@@ -303,8 +303,8 @@ fun CarsScreen(navigationController: NavHostController) {
                                     verticalArrangement = Arrangement.Center,
                                     horizontalAlignment = Alignment.CenterHorizontally
                                 ) {
-                                    Text(text = car.brand ?: "")
-                                    Text(text = "${car.price}$")
+                                    Text(text = car.brand ?: "", color = Color.Black)
+                                    Text(text = "${car.price}$", color = Color.Black)
                                 }
                             }
                             Spacer(modifier = Modifier.height(5.dp))
