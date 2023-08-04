@@ -10,4 +10,4 @@ Modified Clean Architecture (data layer + presentation layer)
 - Jetpack Compose
 
 # Showcase
-![car_selection](https://github.com/KidPudel/CarSelection/assets/63263301/badce59e-2b57-402c-838a-2d7df0f1c010)
+![car_selection_final](https://github.com/KidPudel/CarSelection/assets/63263301/ef12e96b-421f-4589-9e35-a2bfc400edd6)
